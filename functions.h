@@ -59,4 +59,22 @@ void print_elements(const TContainer &collection, const char *label="", const ch
 	cout << endl;
 }
 
+template<typename InputIterator>
+void CalcPrimes(InputIterator first, InputIterator last) {
+	auto it = first;
+	int count = 0;
+	while(it != last) {
+		for(int i = 1; i <= *it; i++) {
+			if(*it % i == 0) {
+				count++;
+			}
+		}
+		if(count <= 2) {
+			cout << (*it) << " ";
+		}
+		it++;
+		count = 0;
+	}
+}
+
 #endif
