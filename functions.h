@@ -6,9 +6,6 @@
 using namespace std;
 
 template<typename InputIterator>
-InputIterator closest2mean(InputIterator first, InputIterator last);
-
-template<typename InputIterator>
 InputIterator closest2mean(InputIterator first, InputIterator last) {
 	int sum = 0, cont = 0;
 	InputIterator value, it;
@@ -47,6 +44,19 @@ InputIterator closest2mean(InputIterator first, InputIterator last) {
 	}
 
 	return value;
+}
+
+template <typename TContainer>
+void print_elements(const TContainer &collection, const char *label="", const char separator=' ') {
+	cout << label;
+	for(auto it = collection.begin(); it != collection.end(); it++) {
+		if(it == collection.end()) {
+			cout << *it;
+		} else {
+			cout << *it << separator;
+		}
+	}
+	cout << endl;
 }
 
 #endif
