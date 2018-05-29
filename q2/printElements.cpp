@@ -1,3 +1,11 @@
+/**
+* @file printElements.cpp
+* @brief Programa que imprime os valores de um conteiner de acordo com o label passado.
+* @author Anderson Evangelista da Silva
+* @since 28/05/2018
+* @date 28/05/2018
+*/
+
 #include <iostream>
 #include <set>
 

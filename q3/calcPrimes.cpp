@@ -1,3 +1,11 @@
+/**
+* @file CalcPrimes.cpp
+* @brief Programa que retorna na tela os números primos de 1 a N(com N sendo informado por linha de comando).
+* @author Anderson Evangelista da Silva
+* @since 28/05/2018
+* @date 28/05/2018
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

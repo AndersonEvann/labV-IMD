@@ -1,3 +1,11 @@
+/**
+* @file closest2mean.cpp
+* @brief Programa que calcula a media e retorna a posição mais proxixa no vector.
+* @author Anderson Evangelista da Silva
+* @since 28/05/2018
+* @date 28/05/2018
+*/
+
 #include <iostream>
 #include <vector>
 
